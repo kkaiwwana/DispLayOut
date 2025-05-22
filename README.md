@@ -23,7 +23,6 @@ Display([
 img_batch = torch.rand(6, c, h, w, dtype=torch.float32, device='cuda')
 img_list = [img_0, img_1, img_2]
 
-
 ax, fig = Display(img_batch, return_ax=True)
 img_arr = Display(*img_list, return_arr=True)
 ```
