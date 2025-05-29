@@ -16,8 +16,9 @@ Display([
     [img_0, img_1, None],
     [align_with_it(img_2), ...],
     [None, img_3, img_4],
-    [Margin('black', width=diplayout.Wdith)],
-])
+],
+    margin=...
+)
 
 
 img_batch = torch.rand(6, c, h, w, dtype=torch.float32, device='cuda')
